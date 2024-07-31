@@ -36,7 +36,7 @@ export default function App() {
   const PressedNumber = (number: number) => {
     if (number === selectedSquare) {
       setCount(count + 1);
-      setLevel(level - 5);
+      setLevel(level - 2);
       setColor(getRandomColor(level + 5));
       setSelectedSquare(getRandomNum());
     } else {
